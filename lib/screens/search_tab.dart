@@ -40,7 +40,7 @@ class SearchTab extends SearchDelegate {
         },
         icon: Icon(Icons.arrow_back));
   }
-
+ 
   @override
   Widget buildResults(BuildContext context) {
     return buildSearchData();
